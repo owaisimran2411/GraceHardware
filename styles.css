@@ -1,0 +1,53 @@
+.carousel-image {
+    height: 100px;
+}
+
+#services {
+    padding: 7% 15% ;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+    
+}
+
+.services-box {
+    /* display: inline */
+    text-align: center;
+    padding: 2rem;
+}
+
+.fa-check-circle {
+    text-align: center;
+    color: green;
+    margin-bottom: 1rem;
+}
+
+.fa-times-circle {
+    text-align: center;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.default-hidden-content{
+    display: none;
+}
+
+
+.slide-btn {
+    position: relative;
+    padding-left: 0;
+  }
+.slide-btn:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 3px solid #d2282e;
+    transition: width .3s ease-in-out;
+}
+  
+.slide-btn:hover:after {
+    width: 90%;
+}
