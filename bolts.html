@@ -65,12 +65,16 @@
             <!-- product size chart cards -->
 
             <div>
+                <h2 class="display-5">Size Chart</h2>
+                <hr>
+            
                 <div class="row">
+                    <!-- size chart 6mm - 10mm -->
                     <div class="col-md-3 text-center">
                         <div class="card">
                             <div class="card-body">
                                 <h6 class="card-title">Diameter: 6mm - 10mm</h6>
-                                <table class="table">
+                                <table class="table" id="table1-visible">
                                     <thead>
                                         <th>Length</th>
                                         <th>Availability</th>
@@ -100,30 +104,676 @@
                                             <td>2 inch</td>
                                             <td><i class=" fas fa-check-circle"></i></td>
                                         </tr>
-                                        <tr>
-                                            <td>2.5 inch</td>
-                                            <td><i class=" fas fa-check-circle"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3 inch</td>
-                                            <td><i class=" fas fa-check-circle"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.5 inch</td>
-                                            <td><i class=" fas fa-check-circle"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4 inch</td>
-                                            <td><i class=" fas fa-check-circle"></i></td>
-                                        </tr>
                                     </tbody>
+                                    
                                 </table>
+                                <p class="lead">
+                                    <button class="btn slide-btn" onclick="showHiddenTable('table1')" id="table1-show-button">Click Here to View Complete Size Chart</button>
+                                </p>
+                                <div id="table1" class=" default-hidden-content">
+                                    <table class="table">
+                                        <thead>
+                                            <th>Length</th>
+                                            <th>Availability</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.75 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.25 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.5 inch</td>
+                                                <td><i class=" fas fa-times-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5 inch</td>
+                                                <td><i class=" fas fa-times-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.5 inch</td>
+                                                <td><i class=" fas fa-times-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6 inch</td>
+                                                <td><i class=" fas fa-times-circle"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="lead">
+                                        <button class="btn slide-btn" onclick="hideDisplayTable('table1')" id="table1-hide-button">Click Here to Hide Complete Size Chart</button>
+                                    </p>
+                                </div>
                                 
                             </div>
                         </div>
+                        <br>
                     </div>
+                    <br>
+
+                    <!-- size chart 8mm - 13mm -->
+                    <div class="col-md-3 text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Diameter: 8mm - 13mm</h6>
+                                <table class="table" id="table2-visible">
+                                    <thead>
+                                        <th>Length</th>
+                                        <th>Availability</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.75 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.25 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                                <p class="lead">
+                                    <button class="btn slide-btn" onclick="showHiddenTable('table2')" id="table2-show-button">Click Here to View Complete Size Chart</button>
+                                </p>
+                                <div id="table2" class=" default-hidden-content">
+                                    <table class="table">
+                                        <thead>
+                                            <th>Length</th>
+                                            <th>Availability</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.75 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.25 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="lead">
+                                        <button class="btn slide-btn" onclick="hideDisplayTable('table2')" id="table2-hide-button">Click Here to Hide Complete Size Chart</button>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+
+                    <!-- size chart 10mm - 17mm -->
+                    <div class="col-md-3 text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Diameter: 10mm - 17mm</h6>
+                                <table class="table" id="table3-visible">
+                                    <thead>
+                                        <th>Length</th>
+                                        <th>Availability</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.75 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.25 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                                <p class="lead">
+                                    <button class="btn slide-btn" onclick="showHiddenTable('table3')" id="table3-show-button">Click Here to View Complete Size Chart</button>
+                                </p>
+                                <div id="table3" class=" default-hidden-content">
+                                    <table class="table">
+                                        <thead>
+                                            <th>Length</th>
+                                            <th>Availability</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.75 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.25 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="lead">
+                                        <button class="btn slide-btn" onclick="hideDisplayTable('table3')" id="table3-hide-button">Click Here to Hide Complete Size Chart</button>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+
+                    <!-- size chart 12mm - 20mm -->
+                    <div class="col-md-3 text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Diameter: 12mm - 20mm</h6>
+                                <table class="table" id="table4-visible">
+                                    <thead>
+                                        <th>Length</th>
+                                        <th>Availability</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.75 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.25 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                                <p class="lead">
+                                    <button class="btn slide-btn" onclick="showHiddenTable('table4')" id="table4-show-button">Click Here to View Complete Size Chart</button>
+                                </p>
+                                <div id="table4" class=" default-hidden-content">
+                                    <table class="table">
+                                        <thead>
+                                            <th>Length</th>
+                                            <th>Availability</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.75 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.25 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="lead">
+                                        <button class="btn slide-btn" onclick="hideDisplayTable('table4')" id="table4-hide-button">Click Here to Hide Complete Size Chart</button>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+
+                    <div class="col-md-3 d-none d-md-block"></div>
+                    <!-- size chart 14mm - 22mm -->
+                    <div class="col-md-3 text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Diameter: 14mm - 22mm</h6>
+                                <table class="table" id="table5-visible">
+                                    <thead>
+                                        <th>Length</th>
+                                        <th>Availability</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.75 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.25 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                                <p class="lead">
+                                    <button class="btn slide-btn" onclick="showHiddenTable('table5')" id="table5-show-button">Click Here to View Complete Size Chart</button>
+                                </p>
+                                <div id="table5" class=" default-hidden-content">
+                                    <table class="table">
+                                        <thead>
+                                            <th>Length</th>
+                                            <th>Availability</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.75 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.25 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.5 inch</td>
+                                                <td><i class=" fas fa-times-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5 inch</td>
+                                                <td><i class=" fas fa-times-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.5 inch</td>
+                                                <td><i class=" fas fa-times-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6 inch</td>
+                                                <td><i class=" fas fa-times-circle"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="lead">
+                                        <button class="btn slide-btn" onclick="hideDisplayTable('table5')" id="table5-hide-button">Click Here to Hide Complete Size Chart</button>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+                    
+                    <!-- size chart 16mm - 24mm -->
+                    <div class="col-md-3 text-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Diameter: 16mm - 24mm</h6>
+                                <table class="table" id="table6-visible">
+                                    <thead>
+                                        <th>Length</th>
+                                        <th>Availability</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>0.75 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.25 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1.5 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 inch</td>
+                                            <td><i class=" fas fa-check-circle"></i></td>
+                                        </tr>
+                                    </tbody>
+                                    
+                                </table>
+                                <p class="lead">
+                                    <button class="btn slide-btn" onclick="showHiddenTable('table6')" id="table6-show-button">Click Here to View Complete Size Chart</button>
+                                </p>
+                                <div id="table6" class=" default-hidden-content">
+                                    <table class="table">
+                                        <thead>
+                                            <th>Length</th>
+                                            <th>Availability</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.75 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.25 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.5 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6 inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="lead">
+                                        <button class="btn slide-btn" onclick="hideDisplayTable('table6')" id="table6-hide-button">Click Here to Hide Complete Size Chart</button>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+
                 </div>
-                <br>
+                    
             </div>
 
             <!-- product image gallery -->
@@ -405,6 +1055,23 @@
             element.style.display = 'block'
         }
 
+        function showHiddenTable(tableID) {
+            var element = document.getElementById(tableID)
+            element.style.display = 'block'
+            element = document.getElementById(tableID + '-visible')
+            element.style.display = 'none'
+            element = document.getElementById(tableID + '-show-button')
+            element.style.display = 'none'
+        }
+
+        function hideDisplayTable(tableID) {
+            var element = document.getElementById(tableID)
+            element.style.display = 'none'
+            element = document.getElementById(tableID + '-visible')
+            element.style.display = 'block'
+            element = document.getElementById(tableID + '-show-button')
+            element.style.display = 'block'
+        }
         
     </script>
 
