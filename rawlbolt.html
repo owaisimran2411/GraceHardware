@@ -74,12 +74,165 @@
             </div>
 
 
-            <!-- product size chart cards -->
-                    
-            
+            <!-- product size chart cards -->       
+            <div>
+                <h2 class="display-5">Size Chart</h2>
+                <hr>
+
+                <div class="row">
+                    <div class="col-md-4 d-none d-md-block"></div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div id="table1">
+                                    <table class="table">
+                                        <thead>
+                                            <th>Diameter</th>
+                                            <th>Length</th>
+                                            <th>Availability</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>6mm</td>
+                                                <td>1.5inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>8mm</td>
+                                                <td>2inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>10mm</td>
+                                                <td>3inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>12mm</td>
+                                                <td>4inch</td>
+                                                <td><i class=" fas fa-check-circle"></i></td>
+                                            </tr>
+                                        </tbody>
+                                        
+                                    </table>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-none d-md-block"></div>
+                </div>
+            </div>
+            <br>
 
             <!-- product image gallery -->
-        
+            <div>
+                <h2 class="display-5">Image Gallery</h2>
+                <hr>
+
+                <!--Carousel Wrapper-->
+                <div id="bolt-carousel" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top">
+                        <a class="black-text" href="#bolt-carousel" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+                        <a class="black-text" href="#bolt-carousel" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+                    </div>
+                    <br>
+                    <!--/.Controls-->
+                
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                
+                        <!--First slide-->
+                        <div class="carousel-item active">
+                    
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <div class="hovereffect">
+                                            <img class="img-fluid img-responsive" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg" alt="Card image cap">
+                                            <div class="overlay">
+                                                <p class="info">Dimensions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <div class="hovereffect">
+                                            <img class="img-fluid img-responsive" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg" alt="Card image cap">
+                                            <div class="overlay">
+                                                <p class="info">Dimensions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <div class="hovereffect">
+                                            <img class="img-fluid img-responsive" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg" alt="Card image cap">
+                                            <div class="overlay">
+                                                <p class="info">Dimensions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                        </div>
+                        <!--/.First slide-->
+
+                        <!-- Second Slide -->
+                        <div class="carousel-item">
+                    
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <div class="hovereffect">
+                                            <img class="img-fluid img-responsive" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                                            <div class="overlay">
+                                                <p class="info">Dimensions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <div class="hovereffect">
+                                            <img class="img-fluid img-responsive" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                                            <div class="overlay">
+                                                <p class="info">Dimensions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card mb-2">
+                                        <div class="hovereffect">
+                                            <img class="img-fluid img-responsive" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                                            <div class="overlay">
+                                                <p class="info">Dimensions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                        </div>
+                        <!--/.Second slide-->
+                
+                    </div>
+                
+                </div>
+                <!--/.Carousel Wrapper-->
+            </div>
+            <br>
+
 
         </section>
     </div>
@@ -99,23 +252,6 @@
             element.style.display = 'block'
         }
 
-        function showHiddenTable(tableID) {
-            var element = document.getElementById(tableID)
-            element.style.display = 'block'
-            element = document.getElementById(tableID + '-visible')
-            element.style.display = 'none'
-            element = document.getElementById(tableID + '-show-button')
-            element.style.display = 'none'
-        }
-
-        function hideDisplayTable(tableID) {
-            var element = document.getElementById(tableID)
-            element.style.display = 'none'
-            element = document.getElementById(tableID + '-visible')
-            element.style.display = 'block'
-            element = document.getElementById(tableID + '-show-button')
-            element.style.display = 'block'
-        }
         
     </script>
 
