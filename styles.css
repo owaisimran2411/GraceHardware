@@ -97,8 +97,9 @@ hr {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  top: 40%;
+  top: 10%;
   left: 0;
+  font-size: 1.5rem;
   padding: 50px 20px;
 }
 
@@ -197,9 +198,22 @@ hr {
 }
 
 #cta {
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
   background-color: #007bff;
   color: white;
   padding-top: 2%;
+  padding-bottom: 1.5%;
+}
+
+.social-icons {
+    
+  margin: 10px 10px 20px 10px;
+  /* padding-bottom: */
+}
+
+.carousel-indicators li {
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
 }
