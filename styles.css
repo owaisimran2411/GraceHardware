@@ -44,7 +44,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    border-bottom: 3px solid #d2282e;
+    border-bottom: 3px solid #ffc107;
     transition: width .3s ease-in-out;
 }
   
